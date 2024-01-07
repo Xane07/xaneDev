@@ -1,0 +1,65 @@
+.heading {
+    margin: 1rem;
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 15px;
+    color-scheme: light dark;
+    height: 200px;
+    width: 180px;
+
+}
+
+.tab{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list{
+    padding-left: 1rem;
+}
+
+.mainLogo{
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 20px;
+    padding-top: 10px;
+    font-size: xx-large;
+
+}
+
+.logoDiv{
+    padding-top: 20px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.header{
+    height: 60px;
+    display: flex;
+
+}
+
+.sectionsDiv{
+    margin-left: 300px;
+    margin-right: 100px;
+    padding-top: 30px;
+    
+}
+
+.sections{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    
+}
+
+.photo{
+    width: 100px;
+    height: 150px;
+    
+}
