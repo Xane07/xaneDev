@@ -1,0 +1,17 @@
+.text{
+    display: inline;
+    width: 600px;
+    font-size: 70px;
+}
+
+.purple{
+    color: rgb(171, 20, 226);
+}
+
+.textContainer{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    left: 50px;
+    height: 300px;
+    width: 600px;
+}
