@@ -27,7 +27,6 @@ function Text() {
                 .callFunction(Text)
                 .start();
             }}
-            
           />
         </span>
       </div>
