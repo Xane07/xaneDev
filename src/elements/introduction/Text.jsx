@@ -13,19 +13,10 @@ function Text() {
         <span className="text2"></span>
         <span className="cursor">
           <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Coder.")
-                .pauseFor(2000)
-                .deleteAll()
-                .typeString("Youtuber.")
-                .pauseFor(2000)
-                .deleteAll()
-                .typeString("Freelancer.")
-                .pauseFor(2000)
-                .deleteAll()
-                .callFunction(Text)
-                .start();
+            options={{
+              strings: ["Coder.", "Developer.","Youtuber.","Learner."],
+              autoStart: true,
+              loop: true,
             }}
           />
         </span>
