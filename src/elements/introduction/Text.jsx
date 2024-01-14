@@ -2,6 +2,12 @@ import React from "react";
 import "./Text.css";
 import Typewriter from "typewriter-effect";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faJs,
+  faNode,
+  faReact,faCss3Alt
+} from "@fortawesome/free-brands-svg-icons";
 
 function Text() {
   console.log("text.jsx");
@@ -26,14 +32,26 @@ function Text() {
         </div>
       </div>
       <div className="skills">
-        <p>Tech Stack |</p>
-        <div className="icons">
-        <FontAwesomeIcon icon="fa-brands fa-html5" />
-        <FontAwesomeIcon icon="fa-brands fa-html5" />
-        <FontAwesomeIcon icon="fa-brands fa-js" />
-        <FontAwesomeIcon icon="fa-brands fa-node" />
-        <FontAwesomeIcon icon="fa-brands fa-react" />
-        </div>
+        <p>
+          <span className="stackText">Tech Stack &nbsp;&nbsp;|</span>
+          <span className="allTechicons">
+            <span className="icons">
+              <FontAwesomeIcon icon={faHtml5} />
+            </span>
+            <span className="icons">
+              <FontAwesomeIcon icon={faCss3Alt} />
+            </span>
+            <span className="icons">
+              <FontAwesomeIcon icon={faJs} />
+            </span>
+            <span className="icons">
+              <FontAwesomeIcon icon={faNode} />
+            </span>
+            <span className="icons">
+              <FontAwesomeIcon icon={faReact} />
+            </span>
+          </span>
+        </p>
       </div>
     </>
   );

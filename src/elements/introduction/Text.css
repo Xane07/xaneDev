@@ -27,11 +27,21 @@
 
 .skills{
     color: black;
+    display: inline-block;
     
     margin-left: 6rem;
 }
 
 .icons{
-    color: black;
-    display: inline;
+    padding: 8px;
+    font-size: 25px;
+
+}
+
+.stackText{
+    font-size: 20px;
+}
+
+.allTechicons{
+    margin-left: 20px;
 }
