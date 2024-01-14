@@ -6,7 +6,9 @@ import {
   faHtml5,
   faJs,
   faNode,
-  faReact,faCss3Alt
+  faReact,
+  faCss3Alt,
+  faPython,
 } from "@fortawesome/free-brands-svg-icons";
 
 function Text() {
@@ -49,6 +51,9 @@ function Text() {
             </span>
             <span className="icons">
               <FontAwesomeIcon icon={faReact} />
+            </span>
+            <span className="icons">
+              <FontAwesomeIcon icon={faPython} />
             </span>
           </span>
         </p>
