@@ -12,7 +12,7 @@
     margin-top: 5rem;
     margin-left: 5rem;
     left: 50px;
-    height: 300px;
+    height: 280px;
     width: 600px;
 }
 
@@ -23,4 +23,15 @@
 
 .cursor{
     font-size: 60px;
+}
+
+.skills{
+    color: black;
+    
+    margin-left: 6rem;
+}
+
+.icons{
+    color: black;
+    display: inline;
 }
