@@ -1,17 +1,39 @@
-function Header(){
-    return(
-        <div className="header">
-            <div className="logoDiv">
-                <a className="mainLogo" href="">Xane.dev</a>
-            </div>
-            <div className="sectionsDiv">
-                <a className="sections" href="">Home</a>
-                <a className="sections" href="">About</a>
-                <a className="sections" href="">Skills</a>
-                <a className="sections" href="">Projects</a>
-            </div>
-        </div>
-    )
-}
+import React from 'react';
+import './header.css'
 
-export default Header;
+class ScrollToAreaButton extends React.Component {
+  scrollToAbout = () => {
+    const targetArea = document.getElementById("about");
+    if (targetArea) {
+      // Scroll to the target area smoothly
+      targetArea.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  scrollToHome = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+  scrollToSkills = () => {
+    const targetArea = document.getElementById("skills");
+    if (targetArea) {
+      // Scroll to the target area smoothly
+      targetArea.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+    render(){
+        return(
+            <div className="header">
+                <div className="logoDiv">
+                    <a className="mainLogo" href="">Xane.dev</a>
+                </div>
+                <div className="sectionsDiv">
+                    <a className="sections" onClick={this.scrollToHome}>Home</a>
+                    <a className="sections" onClick={this.scrollToAbout}>About</a>
+                    <a className="sections" onClick={this.scrollToSkills}>Skills</a>
+                    <a className="sections" href="">Projects</a>
+                </div>
+            </div>
+        )
+    }
+}
+export default ScrollToAreaButton;

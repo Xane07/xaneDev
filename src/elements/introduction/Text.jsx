@@ -15,7 +15,7 @@ function Text() {
   console.log("text.jsx");
   return (
     <>
-      <div className="textContainer">
+      <div className="textContainer" id="home">
         <h3 className="text">
           Hi, I'm Pratham aka <span className="text purple">Xane</span> and I am
           a
