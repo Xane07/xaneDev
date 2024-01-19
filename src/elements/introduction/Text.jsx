@@ -25,9 +25,16 @@ function Text() {
           <span className="cursor">
             <Typewriter
               options={{
-                strings: ["Coder.", "Developer.", "Youtuber.", "Learner."],
+                strings: [
+                  '<span >Coder.</span>',
+                  '<span >Developer.</span>',
+                  '<span style="color: #FF0000;">Youtuber.</span>',
+                  '<span >Learner.</span>',
+                ],
                 autoStart: true,
                 loop: true,
+                 // optional delay between each character
+                html: true, // enables HTML tags in the strings
               }}
             />
           </span>

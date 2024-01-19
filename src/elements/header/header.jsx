@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css'
 
+
 class ScrollToAreaButton extends React.Component {
   scrollToAbout = () => {
     const targetArea = document.getElementById("about");
@@ -35,6 +36,7 @@ class ScrollToAreaButton extends React.Component {
                 <div className="contact">
                   <a className="btn btn-success">Contact</a>
                 </div>
+                
             </div>
         )
     }
