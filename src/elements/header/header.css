@@ -1,3 +1,26 @@
 .sections {
   cursor: pointer;
 }
+
+.cntct{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(0, 123, 255);
+  border: solid 1.7px rgb(0, 123, 255);
+  transition: box-shadow 0.3s ease;
+  border-radius: 8px;
+  height: 34px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.cntct:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cntct:active{
+  background-color: rgb(2, 101, 206);
+}
