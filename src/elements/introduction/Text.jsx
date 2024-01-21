@@ -26,10 +26,10 @@ function Text() {
             <Typewriter
               options={{
                 strings: [
-                  '<span >Coder.</span>',
-                  '<span >Developer.</span>',
-                  '<span style="color: #FF0000;">Youtuber.</span>',
-                  '<span >Learner.</span>',
+                  '<span id="words">Coder.</span>',
+                  '<span id="words">Developer.</span>',
+                  '<span id="words"style="color: #FF0000;">Youtuber.</span>',
+                  '<span id="words">Learner.</span>',
                 ],
                 autoStart: true,
                 loop: true,
