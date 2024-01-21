@@ -10,12 +10,19 @@
 
 .textContainer{
     margin-top: 5rem;
-    margin-left: 5rem;
+    margin-left: -2rem;
+    margin-bottom: -2rem;
     left: 50px;
     height: 280px;
     width: 600px;
+    display: block;
 }
 
+.app{
+    display: inline;
+
+}
+  
 .text2{
     font-size: 70px;
     color: black;
@@ -26,6 +33,8 @@
 }
 
 .skills{
+    margin-top: -100px;
+    margin-left: 4rem;
     color: black;
     display: inline-block;
     
@@ -49,3 +58,50 @@
 #words{
     opacity: 0.8;
 }
+
+.imgs{
+    margin-left: 600px;
+    right: 0;
+}
+.img{
+    height: 250px;
+    width:250px
+
+}
+
+.image1{
+    
+    height: 350px;
+    width: auto;
+    animation: rotateLeft 20s linear infinite;
+}
+  
+.image2{
+    height: 350px;
+    width: auto;
+    margin-left: -10rem;
+    animation: rotateRight 18s linear infinite;
+}
+  
+
+.textContainer{
+    display: inline-block;
+}
+
+@keyframes rotateRight {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+@keyframes rotateLeft {
+    0% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
