@@ -34,7 +34,7 @@ class ScrollToAreaButton extends React.Component {
                     <a className="sections" href="">Projects</a>
                 </div>
                 <div className="contact">
-                  <a className="cntct">Contact</a>
+                  <a className="cntct">work with me</a>
                 </div>
                 
             </div>

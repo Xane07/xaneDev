@@ -2,11 +2,10 @@
   cursor: pointer;
 }
 
-.cntct{
-  color: white;
+.cntct {
+  color: black;
   text-decoration: none;
-  background-color: rgb(0, 123, 255);
-  border: solid 1.7px rgb(0, 123, 255);
+  border: solid 1.7px #ab33e2;
   transition: box-shadow 0.3s ease;
   border-radius: 8px;
   height: 34px;
@@ -15,12 +14,64 @@
   padding-right: 10px;
   padding-top: 3px;
   padding-bottom: 3px;
+  font-family: 'Pacifico', cursive;
 }
 
-.cntct:hover{
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.cntct:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-.cntct:active{
+.cntct:active {
   background-color: rgb(2, 101, 206);
+}
+
+.sectionsDiv {
+  /* margin-left: 300px;
+    margin-right: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sections {
+  text-decoration: none;
+  color: black;
+  padding: 25px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  margin-top: 24px;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.sections:hover {
+  text-decoration: none;
+}
+
+.sections::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 26px; 
+  width: 0;
+  border-bottom: 2px solid #ab33e2; 
+  transition: all 0.3s ease;
+}
+.sections:hover::after{
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  width: 200px;
+}
+
+.contact.btn {
+  font-size: x-large;
 }
