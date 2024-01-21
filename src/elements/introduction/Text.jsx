@@ -15,38 +15,31 @@ function Text() {
   console.log("text.jsx");
   return (
     <>
-      <div className="container">
-        <div className="textContainer" id="home">
-          <h3 className="text">
-            Hi, I'm Pratham aka <span className="text purple">Xane</span> and I
-            am a
-          </h3>
-          <div>
-            <span className="text2"></span>
-            <span className="cursor">
-              <Typewriter
-                options={{
-                  strings: [
-                    '<span id="words">Coder.</span>',
-                    '<span id="words">Developer.</span>',
-                    '<span id="words"style="color: #FF0000;">Youtuber.</span>',
-                    '<span id="words">Learner.</span>',
-                  ],
-                  autoStart: true,
-                  loop: true,
-                  // optional delay between each character
-                  html: true, // enables HTML tags in the strings
-                }}
-              />
-            </span>
-          </div>
+      <div className="textContainer" id="home">
+        <h3 className="text">
+          Hi, I'm Pratham aka <span className="text purple">Xane</span> and I am
+          a
+        </h3>
+        <div>
+          <span className="text2"></span>
+          <span className="cursor">
+            <Typewriter
+              options={{
+                strings: [
+                  '<span id="words">Coder.</span>',
+                  '<span id="words">Developer.</span>',
+                  '<span id="words"style="color: #FF0000;">Youtuber.</span>',
+                  '<span id="words">Learner.</span>',
+                ],
+                autoStart: true,
+                loop: true,
+                 // optional delay between each character
+                html: true, // enables HTML tags in the strings
+              }}
+            />
+          </span>
         </div>
-        <span className="imageContainer">
-          <img src="resources/main1 (1).png" alt="Image 1" className="image1" />
-          <img src="resources/main2 (1).png" alt="Image 2" className="image2" />
-        </span>
       </div>
-
       <div className="skills">
         <p>
           <span className="stackText">Tech Stack &nbsp;&nbsp;|</span>
