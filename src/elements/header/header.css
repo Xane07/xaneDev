@@ -15,15 +15,13 @@
   padding-top: 3px;
   padding-bottom: 3px;
   font-family: 'Pacifico', cursive;
+  cursor: pointer;
 }
 
 .cntct:hover {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-.cntct:active {
-  background-color: rgb(2, 101, 206);
-}
 
 .sectionsDiv {
   /* margin-left: 300px;
