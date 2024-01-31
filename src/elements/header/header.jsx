@@ -4,7 +4,7 @@ import './header.css'
 
 class ScrollToAreaButton extends React.Component {
   scrollToAbout = () => {
-    const targetArea = document.getElementById("about");
+    const targetArea = document.getElementById("abtsec");
     if (targetArea) {
       // Scroll to the target area smoothly
       targetArea.scrollIntoView({ behavior: 'smooth' });

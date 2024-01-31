@@ -1,5 +1,37 @@
-.about{
-    background-color: #ab33e2;
-    height: 600px;
-    margin-top: 300px;
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap");
+
+.about {
+  margin: 7vh;
+  margin-top: 28vh;
+  display: block;
+  padding: 20vh;
+  padding-top: 30vh;
+  border: dashed black 2px;
+  border-radius: 20px;
+}
+
+.hd1 {
+  color: black;
+  font-family: "Comfortaa", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-left: 4rem;
+  margin-top: -20vh;
+  margin-bottom: 2rem;
+}
+
+.subhd{
+  font-family: "Comfortaa", sans-serif;
+}
+
+
+.abtsec {
+  padding-top: 2px;
+}
+
+.para {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  padding-left: 2vh;
 }
