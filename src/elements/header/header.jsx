@@ -31,7 +31,7 @@ class ScrollToAreaButton extends React.Component {
                     <a className="sections" onClick={this.scrollToHome}>Home</a>
                     <a className="sections" onClick={this.scrollToAbout}>About</a>
                     <a className="sections" onClick={this.scrollToSkills}>Skills</a>
-                    <a className="sections" href="">Projects</a>
+                    <a className="sections" href="https://github.com/Xane07" target='_blank'>Projects</a>
                 </div>
                 <div className="contact">
                   <a className="cntct">work with me</a>
