@@ -4,6 +4,7 @@ import Header from "./elements/header/header.jsx";
 import Text from "./elements/introduction/Text.jsx";
 import Me from "./elements/aboutMe/mesection.jsx"
 import Footer from "./elements/footer/footer.jsx";
+import Skills from "./elements/skills/skills.jsx";
 
 
 import { Analytics } from "@vercel/analytics/react";
@@ -14,7 +15,7 @@ function App() {
       <Header />
       <Text />
       <Me />
-      <div style={{ height: "800px" }} id="skills"></div>
+      <Skills />
       <Footer />
       <Analytics />
     </>

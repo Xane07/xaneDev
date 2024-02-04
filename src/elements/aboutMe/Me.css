@@ -12,6 +12,8 @@
   border: dashed black 2px;
   border-radius: 20px;
   padding-bottom: 10vh;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .hd1 {
@@ -19,7 +21,7 @@
   font-family: "Comfortaa", sans-serif;
   display: flex;
   justify-content: center;
-  margin-left: 4rem;
+  margin-left: 5%;
   margin-top: -20vh;
   margin-bottom: 5rem;
 }

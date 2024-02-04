@@ -33,7 +33,7 @@ function Text() {
                 ],
                 autoStart: true,
                 loop: true,
-                 // optional delay between each character
+                // optional delay between each character
                 html: true, // enables HTML tags in the strings
               }}
             />

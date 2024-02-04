@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+
+.skillCards{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    height: 3vh;
+    justify-content: center;
+}
+
+.skillh3{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.thisCard{
+    padding: 10px;
+    margin: 2rem;
+    border: solid black 2px;
+    border-radius: 15px;
+    width: 10%;
+}
+
+.cards123{
+    display: flex;
+}
+
+.skillSpans{
+    display: block;
+}
+
+.skillPoints{
+    display: flex;
+    justify-content: center;
+}
