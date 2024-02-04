@@ -18,7 +18,7 @@ function Me() {
             <br></br>
             <br></br>In my leisure time, I enjoy learning new skill and
             technologies while sometimes I play games to freshen up my mind. */}
-            Hello! I'm Pratham Pachori, a dedicated student. My passion lies in
+            Hello! I'm Pratham, a dedicated student. My passion lies in
             crafting innovative solutions through the world of software
             development.
           </p>
