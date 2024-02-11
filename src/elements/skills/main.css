@@ -2,6 +2,8 @@
 
 
 .skillCards{
+    margin-top: 40vh;
+    margin-bottom: 10vh;
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
@@ -18,18 +20,21 @@
     margin: 2rem;
     border: solid black 2px;
     border-radius: 15px;
-    width: 10%;
+    width: 30%;
+    height: 47vh;
 }
 
 .cards123{
     display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .skillSpans{
     display: block;
 }
-
 .skillPoints{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
