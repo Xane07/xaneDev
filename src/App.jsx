@@ -9,6 +9,7 @@ import Skills from "./elements/skills/skills.jsx";
 
 import { Analytics } from "@vercel/analytics/react";
 
+
 function App() {
   return (
     <>
@@ -21,4 +22,10 @@ function App() {
     </>
   );
 }
+
+setInterval(() => {
+  console.log(new Date());
+
+}, 1000)
+
 export default App;
