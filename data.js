@@ -34,5 +34,3 @@ const deleteTasks = async (...id) => {
     
   }
 };
-
-postTasks();
