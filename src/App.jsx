@@ -10,6 +10,7 @@ import Skills from "./elements/skills/skills.jsx";
 import { Analytics } from "@vercel/analytics/react";
 
 
+
 const api = "http://localhost:6969/tasks";
 
 const apiFetch = async () => {
