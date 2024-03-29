@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .skillCards{
     margin-top: 40vh;
@@ -22,6 +24,13 @@
     border-radius: 15px;
     width: 30%;
     height: 47vh;
+    transition: 200ms;
+}
+
+.thisCard:hover{
+    height: 48vh;
+    width: 32%;
+
 }
 
 .cards123{

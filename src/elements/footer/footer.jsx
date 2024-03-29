@@ -2,11 +2,11 @@ import './footer.css'
 
 function Footer(){
     return <>
-                <div className="footer">
+                <footer className="footer">
                     <div className='copyright'>
                         <span>©Copyright All rights reserved.</span>
                     </div>
-                </div>
+                </footer>
         </>
 }
 

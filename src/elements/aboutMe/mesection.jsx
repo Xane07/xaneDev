@@ -5,10 +5,10 @@ function Me() {
     <>
       <div className="abtsec" id="abtsec">
         <div className="about" id="about">
-          <h3 className="hd1">
+          <h3 className="hd1 text-xl">
             Hello there! 👋 I'm Pratham, a software dev from Delhi.
           </h3>
-          <h5 className="subhd">about me:</h5>
+          <h5 className="subhd pb-3 text-lg">about me:</h5>
           <p className="para">
             {/* I'm a passionate software dev with a background in BCA + MCA Degree
             ( in progress ) from Amity University , and I am excited about
@@ -22,12 +22,12 @@ function Me() {
             crafting innovative solutions through the world of software
             development.
           </p>
-          <h5 className="subhd">educational background:</h5>
+          <h5 className="subhd py-3 text-lg">educational background:</h5>
           <p className="para">
             Currently enrolled in the BCA + MCA program at Amity University,
             Noida.
           </p>
-          <h5 className="subhd">skills:</h5>
+          <h5 className="subhd py-3 text-lg">skills:</h5>
           <p className="para">
             <li>
               Proficient in JavaScript, Java, Python, HTML, CSS, and React.js.
@@ -37,12 +37,12 @@ function Me() {
               problems.
             </li>
           </p>
-          <h5 className="subhd">continuous learning:</h5>
+          <h5 className="subhd py-3 text-lg">continuous learning:</h5>
           <p className="para">
             A fervent learner, always seeking opportunities for skill
             enhancement and staying abreast of the latest industry trends.
           </p>
-          <h5 className="subhd">let's connect:</h5>
+          <h5 className="subhd py-3 text-lg">let's connect:</h5>
           <p className="para">
             I'm open to collaboration and connecting with like-minded
             individuals. Feel free to reach out for discussions on coding,

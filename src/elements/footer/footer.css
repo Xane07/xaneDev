@@ -8,9 +8,9 @@
 
 .copyright{
     color: rgb(191, 191, 191);
-    align-items: end;
     width: 100%;
     display: flex;
+    flex: end;
     justify-content: center;
     font-size: 23px;
     margin-bottom: 2rem;
