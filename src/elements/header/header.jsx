@@ -20,6 +20,11 @@ class ScrollToAreaButton extends React.Component {
     }
   };
 
+  isClicked = (props) => {
+    console.log(props)
+    
+
+  }
   render() {
     return (
       <div className="header">
@@ -47,7 +52,7 @@ class ScrollToAreaButton extends React.Component {
           </a>
         </div>
         <div className="contact">
-          <a className="cntct">work with me</a>
+          <a onClick={this.isClicked} className="cntct">work with me</a>
         </div>
       </div>
     );

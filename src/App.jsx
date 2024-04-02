@@ -21,8 +21,5 @@ function App() {
   );
 }
 
-setInterval(() => {
-  console.log(new Date());
-}, 1000);
 
 export default App;
