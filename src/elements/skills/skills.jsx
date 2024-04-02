@@ -3,12 +3,9 @@ import "./main.css";
 import SkillCards from "./skillCards";
 
 class Skills extends React.Component {
+
   render() {
-    let skills = {
-      "front-end": ["html", "css", "js", "React.js"],
-      "back-end": ["node.js", "python"],
-      "full-stack": ["Next.js"]
-    };
+ 
 
     return (
       <>
@@ -17,16 +14,13 @@ class Skills extends React.Component {
         </div>
         <div className="cards123">
           <SkillCards
-            whichEnd="front-end"
-            skillName={skills["front-end"].join(", ")}
+            whichEnd="FrontEnd" skillName="MERN"
           />
           <SkillCards
-            whichEnd="back-end"
-            skillName={skills["back-end"].join(", ")}
+            whichEnd="BackEnd" skillName="Node.js + python"
           />
           <SkillCards
-            whichEnd="full-stack"
-            skillName={skills["full-stack"].join(", ")}
+            whichEnd="FullStack" skillName="MERN + Node"
           />
         </div>
       </>

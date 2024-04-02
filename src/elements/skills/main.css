@@ -47,3 +47,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.frmwork{
+    display: flex;
+    color: #ab33e2;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}

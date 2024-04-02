@@ -1,13 +1,23 @@
-import './footer.css'
+import "./footer.css";
 
-function Footer(){
-    return <>
-                <footer className="footer">
-                    <div className='copyright'>
-                        <span>©Copyright All rights reserved.</span>
-                    </div>
-                </footer>
-        </>
+function Footer() {
+  return (
+    <>
+      <div class="custom-shape-divider-bottom-1712040365">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </>
+  );
 }
 
 export default Footer;

@@ -48,15 +48,16 @@
 
 .header {
   height: 60px;
+  padding-left: 13%;
+  padding-right: 13%;
+  width: 100%;
   display: flex;
   position: sticky;
   top: 0;
   z-index: 100;
   background-color: white;
   /* max-width: 1200px; */
-  margin-left: 10%;
   margin-right: 10%;
-  padding: 2rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
