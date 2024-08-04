@@ -30,7 +30,7 @@ function Me() {
           <h5 className="subhd py-3 text-lg">skills:</h5>
           <p className="para">
             <li>
-              Proficient in JavaScript, Java, Python, HTML, CSS, and React.js.
+              Proficient in JavaScript, Java, Python, HTML, CSS, Next and React.js.
             </li>
             <li>
               Enthusiastic about utilizing technology to solve real-world
