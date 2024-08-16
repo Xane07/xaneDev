@@ -1,61 +1,64 @@
 import React from "react";
 import "./header.css";
+import { useNavigate } from "react-router-dom";
 
-class ScrollToAreaButton extends React.Component {
-  scrollToAbout = () => {
+const ScrollToAreaButton = () => {
+  const navigate = useNavigate();
+
+  const scrollToAbout = () => {
     const targetArea = document.getElementById("abtsec");
     if (targetArea) {
-      // Scroll to the target area smoothly
       targetArea.scrollIntoView({ behavior: "smooth" });
     }
   };
-  scrollToHome = () => {
+
+  const scrollToHome = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  scrollToSkills = () => {
+
+  const scrollToSkills = () => {
     const targetArea = document.getElementById("skills");
     if (targetArea) {
-      // Scroll to the target area smoothly
       targetArea.scrollIntoView({ behavior: "smooth" });
     }
   };
 
-  isClicked = (props) => {
-    console.log(props)
-    
+  const push = () => {
+    navigate("/contact");
+  };
 
-  }
-  render() {
-    return (
-      <div className="header">
-        <div className="logoDiv">
-          <a className="mainLogo" href="">
-            Xane.dev
-          </a>
-        </div>
-        <div className="sectionsDiv">
-          <a className="sections" onClick={this.scrollToHome}>
-            Home
-          </a>
-          <a className="sections" onClick={this.scrollToAbout}>
-            About
-          </a>
-          <a className="sections" onClick={this.scrollToSkills}>
-            Skills
-          </a>
-          <a
-            className="sections"
-            href="https://github.com/Xane07"
-            target="_blank"
-          >
-            Projects
-          </a>
-        </div>
-        <div className="contact">
-          <a onClick={this.isClicked} className="cntct">work with me</a>
-        </div>
+  return (
+    <div className="header">
+      <div className="logoDiv">
+        <a className="mainLogo" href="">
+          Xane.dev
+        </a>
       </div>
-    );
-  }
-}
+      <div className="sectionsDiv">
+        <a className="sections" onClick={scrollToHome}>
+          Home
+        </a>
+        <a className="sections" onClick={scrollToAbout}>
+          About
+        </a>
+        <a className="sections" onClick={scrollToSkills}>
+          Skills
+        </a>
+        <a
+          className="sections"
+          href="https://github.com/Xane07"
+          target="_blank"
+        >
+          Projects
+        </a>
+      </div>
+      <div className="contact">
+        <a onClick={push} className="cntct">
+          work with me
+        </a>
+      </div>
+    </div>
+  );
+};
+
 export default ScrollToAreaButton;
