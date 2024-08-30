@@ -13,5 +13,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="contact" element={<Contact />} />
       </Routes>
     </Router>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

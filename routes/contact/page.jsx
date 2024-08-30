@@ -8,8 +8,11 @@ const Contact = () => {
 
   const handleClick = () => {
     let emailBar = document.querySelector(".email");
+    let isEmail = () => {
+      navigate("/");
+    };
 
-    email ? navigate("/") : emailBar.classList.toggle("redShake");
+    email ? isEmail() : emailBar.classList.toggle("redShake");
   };
   return (
     <>
@@ -23,9 +26,13 @@ const Contact = () => {
               setEmail(e.target.value);
             }}
           />
-          <input className="elements" type="text" placeholder="Subject" />
+          <input
+            className="elements subject"
+            type="text"
+            placeholder="Subject"
+          />
           <textarea className="elements" placeholder="Message" />
-          <button onClick={handleClick} type="submit">
+          <button className="subContact" onClick={handleClick} type="submit">
             Submit
           </button>
         </div>
