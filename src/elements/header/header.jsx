@@ -1,9 +1,16 @@
 import React from "react";
 import "./header.css";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 const ScrollToAreaButton = () => {
+  useEffect(() => {
+    fetch("https://json-wlj8.onrender.com/tasks")
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+  }, []);
   const navigate = useNavigate();
+  const api = "https://json-wlj8.onrender.com/tasks";
 
   const scrollToAbout = () => {
     const targetArea = document.getElementById("abtsec");

@@ -5,10 +5,19 @@ import { useNavigate } from "react-router-dom";
 const Contact = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleClick = () => {
     let emailBar = document.querySelector(".email");
-    let isEmail = () => {
+    let isEmail = async () => {
+      const res = await fetch("https://json-wlj8.onrender.com/tasks", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, subject, message }),
+      });
       navigate("/");
     };
 
@@ -30,8 +39,17 @@ const Contact = () => {
             className="elements subject"
             type="text"
             placeholder="Subject"
+            onChange={(e) => {
+              setSubject(e.target.value);
+            }}
           />
-          <textarea className="elements" placeholder="Message" />
+          <textarea
+            className="elements"
+            placeholder="Message"
+            onChange={(e) => {
+              setMessage(e.target.value);
+            }}
+          />
           <button className="subContact" onClick={handleClick} type="submit">
             Submit
           </button>
