@@ -24,8 +24,13 @@ const Contact = () => {
     email ? isEmail() : emailBar.classList.toggle("redShake");
   };
   return (
-    <>
+    <> 
       <div className="window">
+      <div>
+        <button className="back-btn" onClick={()=>{navigate("/")}} >
+          
+          </button>
+        </div>
         <div className="box">
           <input
             className="elements email"
