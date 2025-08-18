@@ -4,7 +4,6 @@
     width: 60vh;
     position: absolute;
     top: 25vh;
-    left: 52vh;
     border-radius: 15px;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -13,7 +12,46 @@
     flex-direction: column;
     align-items: center;
     border: solid 1px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
+
+.line {
+    text-align: center;
+    margin-top: 10rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ab33e2;
+}
+
+.ContactLogo {
+    text-decoration: none;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    /* margin: 20px; */
+    padding-top: 10px;
+    font-size: 37px;
+
+  }
+
+.cntHeader {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back {
+    position: static;
+    text-decoration: none;
+    font-size: xx-large;
+    color: black;
+}
+
 
 .elements {
     margin: 1rem;
@@ -73,6 +111,8 @@
 
 .subContact {
     padding: 5px 10px 5px 10px;
+    margin-top: 4rem;
+    margin-left: 1rem;
     border: solid 2px #ab33e2;
     border-radius: 5px;
     background-color: white;

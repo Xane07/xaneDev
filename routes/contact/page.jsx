@@ -24,7 +24,11 @@ const Contact = () => {
     email ? isEmail() : emailBar.classList.toggle("redShake");
   };
   return (
-    <>
+    <><div className="cntHeader">
+        <a className="ContactLogo" href="/">XaneDev</a>
+        <a className="back" href="/">&larr;</a>
+    </div>
+        <div className="line"><h2>Please fill out the form below to get in touch with me!</h2></div>
       <div className="window">
         <div className="box">
           <input
